@@ -9,8 +9,8 @@ int main(){
     std::cout << "Jakie dzialanie: 1 => +   2 => -   3 => *   4 => /" << std::endl;;
     std::cin >> numer;
     std::cout << std::endl;
-    switch (numer){
-        case 1:
+    switch (numer){ //(tylko l.całkowita typu char, int, long)
+        case 1: //przypadek dla wartości 1 zmiennej numer 
             std::cout << "Wynik dodawania " << liczba_1 << " + " << liczba_2 << " to: " << liczba_1+liczba_2;
             break;
         case 2:
