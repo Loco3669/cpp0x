@@ -16,7 +16,7 @@ int main(){
             }
         }
     }
-    
+    std::cout << wynik;
     return 0;
 
 }
