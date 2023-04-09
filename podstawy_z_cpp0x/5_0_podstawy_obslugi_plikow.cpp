@@ -34,7 +34,7 @@ int main()
     std::string SzukanaFraza;
     std::cout << "Wprowadz fraze do wyszukania w pliku: ";
     std::cin >> SzukanaFraza;
-    if( !wyswietlZawartoscPliku( "cpp0x.txt", SzukanaFraza ) )
+    if( !wyswietlZawartoscPliku( "5_0_cpp0x.txt", SzukanaFraza ) )
          std::cout << "Nie udalo sie otworzyc pliku o podanej nazwie." << std::endl;
    
     return 0;
